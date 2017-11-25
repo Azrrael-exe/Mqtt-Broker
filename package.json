@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-broker",
+  "version": "1.0.0",
+  "description": "MQTT broker example",
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azrrael-exe/mqtt-broker.git"
+  },
+  "keywords": [
+    "MQTT"
+  ],
+  "author": "vcamargo.e@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azrrael-exe/mqtt-broker/issues"
+  },
+  "homepage": "https://github.com/Azrrael-exe/mqtt-broker#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mosca": "^2.7.0"
+  }
+}
